@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -25,4 +24,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+/* body{
+    background: gray !important;
+} */
+.slick-prev:before, .slick-next:before{
+    color: #0b0b0b !important;
+    font-size: 30px;
+}
+
 </style>
